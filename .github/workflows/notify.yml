@@ -23,6 +23,7 @@ jobs:
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
+          images: https://img.freepik.com/free-photo/front-view-glasses-beer-with-wheat_23-2148755010.jpg?w=360&t=st=1667131142~exp=1667131742~hmac=8fbe87d2b5f1907c287cb057b7ce471faca4e9168f48d0c8e9394b7ee6d9047f
           message: |
             ${{ github.actor }} created commit:
             Commit message: ${{ github.event.commits[0].message }}
